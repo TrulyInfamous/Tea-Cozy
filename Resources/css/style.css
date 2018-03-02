@@ -8,3 +8,118 @@ html, body {
   opacity: 0.9;
   text-align: center;
 }
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  max-height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  margin: 0;
+  z-index: 10;
+  background-color: black;
+}
+.header_logo img {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.header_nav span {
+  margin-right: 30px;
+}
+.header_nav span a {
+  color: seashell;
+  text-decoration: underline;
+}
+.gap {
+  height: 69px;
+}
+.main_image {
+  display: flex;
+  background-image: url('../img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.main_image_banner {
+  background-color: black;
+  height: 110px;
+  width: 1200px;
+}
+.main_image_banner h2 {
+  margin-top: 10px;
+}
+.tea_month {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.tea_month .banner {
+  width: 100%;
+}
+.tea_month img {
+  width: 300px;
+  height: 200px;
+}
+.tea_month h4 {
+  margin-top: 10px;
+}
+.tea1 {
+  margin-right: 50px;
+}
+.tea3 {
+  margin-left: 50px;
+}
+.tea4 {
+  margin-right: 25px;
+}
+.tea5 {
+  margin-left: 25px;
+}
+.locations_image {
+  background-image: url('../img-locations-background.jpg');
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 600px; /*height in specs is different from codecademy representation
+                  I decided to go with the representation for best accuracy*/
+  width: 1200px;
+}
+.locations_image h2 {
+  position: absolute;
+  margin-top: 128px; /*Location black boxes sit at 158px from the top*/
+                      /*15px would be margin-top: 143px but didn't look good
+                      or similar to the representation*/
+}
+.location_container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l1, .l2, .l3 {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+.l1 {
+  margin-right: 40px;
+}
+.l3 {
+  margin-left: 40px;
+}
+.contact {
+  height: 200px;
+}
+footer h5 {
+  text-align: left;
+  margin-left: 20px;
+}
